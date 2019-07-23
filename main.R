@@ -98,3 +98,5 @@ for (i in 1:45) {
   adj_d = adj_d * (1 + r2)
 }
 print(acc / adj_d)
+
+print((acc / adj_d) * 0.04)
